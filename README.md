@@ -1,2 +1,0 @@
-# resources
-resources for hack
