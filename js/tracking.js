@@ -1,1 +1,1 @@
-alert("hacked by hussien")
+alert(document.cookie)
