@@ -1,0 +1,29 @@
+[0;32m
+           ________                ____  __            __
+          / ____/ /___  __  ______/ / / / /_  ______  / /____  _____
+         / /   / / __ \/ / / / __  / /_/ / / / / __ \/ __/ _ \/ ___/
+        / /___/ / /_/ / /_/ / /_/ / __  / /_/ / / / / /_/  __/ /
+        \____/_/\____/\__,_/\__,_/_/ /_/\__,_/_/ /_/\__/\___/_/  v0.7.1
+        
+[0;0m
+[>] Bruteforce 403 name permutations.
+
+[+] Check Google Cloud
+[0;34m    Google App Engine     staging.gearset.comapi.appspot.com        	OPEN      [0;0m
+[0;34m    Google App Engine     staging.gearset.com-azure.appspot.com     	OPEN      [0;0m
+[0;0m    Google App Engine     staging.gearset.com.data-private.appspot.com	PRIVATE   WebApp Error | Redirect https://accounts.google.com/ServiceLogin?passive=true&continue=https://uc.appengine.google.com/_ah/conflogin%3Fstate%3D~AJKiYcFDieylh0jAPLVMZqYvH0yssag9oF_3VgzroHtla_f0a_pPD5e8MKX7HQ_4JuJ01bZkuaCLe_GfnZ3fDqDeK4JkztBgdT9HzIs2f-TeZNVxorfOO6E_Taa7SXAJMV7xie9dLanIXlPm-MENchXEfUmx9tr0XMJ5gaqSNr0irf_L68yOqoYsQcbiwtHk0BjnPpSJK4YVZ124KM9XAw49l9r5TrTA4A[0;0m
+[0;34m    Google App Engine     staging.gearset.com-test.appspot.com      	OPEN      [0;0m
+[0;34m    Google App Engine     staging.gearset.com-web.appspot.com       	OPEN      WebApp Error[0;0m
+[+] Check Amazon Cloud
+[+] Check Azure Cloud
+[0;0m    Storage Files         staging.gearset.com.aws-logs.file.core.windows.net	DOMAIN    [0;0m
+[0;0m    Storage Tables        staging.gearset.com.test.table.core.windows.net	DOMAIN    [0;0m
+[0;0m    App Management        staging.gearset.com.jenkins.scm.azurewebsites.net	DOMAIN    [0;0m
+[0;0m    App Management        staging.gearset.comstaging.scm.azurewebsites.net	DOMAIN    [0;0m
+[0;0m    App Azure             productcontentstaging.gearset.com.azurewebsites.net	DOMAIN    [0;0m
+[0;0m    App Azure             secret.staging.gearset.com.azurewebsites.net	DOMAIN    [0;0m
+[0;0m    App Web               staging.gearset.comroot.p.azurewebsites.net	DOMAIN    [0;0m
+[0;0m    Key Vaults            assets.staging.gearset.com.vault.azure.net	DOMAIN    [0;0m
+[0;0m    Azure CDN             staging.gearset.comjenkins.azureedge.net  	DOMAIN    [0;0m
+[0;0m    API Services          secretstaging.gearset.com.azure-api.net   	DOMAIN    [0;0m
+[+] Check Alibaba Cloud

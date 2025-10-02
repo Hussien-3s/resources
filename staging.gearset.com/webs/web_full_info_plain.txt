@@ -1,0 +1,6 @@
+https://au.staging.gearset.com [404] [null] [null] ["HSTS"]
+https://ca.staging.gearset.com [404] [null] [null] ["HSTS"]
+https://eu.staging.gearset.com [404] [null] [null] ["HSTS"]
+https://hipaa.staging.gearset.com [404] [null] [null] ["HSTS"]
+https://staging.gearset.com [200] [Login | Gearset] [null] ["Google Analytics","HSTS","Osano","jQuery","reCAPTCHA"]
+https://us.staging.gearset.com [404] [null] [null] ["HSTS"]

@@ -1,0 +1,230 @@
+[cookies-without-httponly] [javascript] [info] ca.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] ca.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] hipaa.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] hipaa.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] us.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] us.staging.gearset.com ["AntiForgeryToken2"]
+[missing-sri] [http] [info] https://staging.gearset.com ["https://cmp.osano.com/6okapU34JmZx4cWG/4693432c-ab0c-40c3-a4a1-99cc77801085/osano.js","https://www.googletagmanager.com/gtag/js?id=AW-801555690","https://www.google.com/recaptcha/api.js?render=6LfsTeMUAAAAAFiuQS8yLft0qLSV_dDa1T7Yx0v-"]
+[missing-sri] [http] [info] https://staging.gearset.com ["https://cmp.osano.com/6okapU34JmZx4cWG/4693432c-ab0c-40c3-a4a1-99cc77801085/osano.js","https://www.googletagmanager.com/gtag/js?id=AW-801555690","https://www.google.com/recaptcha/api.js?render=6LfsTeMUAAAAAFiuQS8yLft0qLSV_dDa1T7Yx0v-"]
+[cookies-without-httponly] [javascript] [info] eu.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] eu.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] au.staging.gearset.com ["AntiForgeryToken2"]
+[cookies-without-httponly] [javascript] [info] au.staging.gearset.com ["AntiForgeryToken2"]
+[external-service-interaction] [http] [info] https://ca.staging.gearset.com
+[external-service-interaction] [http] [info] https://ca.staging.gearset.com
+[external-service-interaction] [http] [info] https://hipaa.staging.gearset.com
+[external-service-interaction] [http] [info] https://us.staging.gearset.com
+[external-service-interaction] [http] [info] https://eu.staging.gearset.com
+[external-service-interaction] [http] [info] https://staging.gearset.com
+[external-service-interaction] [http] [info] https://eu.staging.gearset.com
+[external-service-interaction] [http] [info] https://us.staging.gearset.com
+[external-service-interaction] [http] [info] https://staging.gearset.com
+[external-service-interaction] [http] [info] https://hipaa.staging.gearset.com
+[external-service-interaction] [http] [info] https://au.staging.gearset.com
+[external-service-interaction] [http] [info] https://au.staging.gearset.com
+[tls-version] [ssl] [info] ca.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] ca.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] ca.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] ca.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] hipaa.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] hipaa.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] hipaa.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] us.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] eu.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] us.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] eu.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] hipaa.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] us.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] eu.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] us.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] eu.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] au.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] au.staging.gearset.com:443 ["tls12"]
+[tls-version] [ssl] [info] au.staging.gearset.com:443 ["tls13"]
+[tls-version] [ssl] [info] au.staging.gearset.com:443 ["tls13"]
+[missing-cookie-samesite-strict] [http] [info] https://ca.staging.gearset.com ["POD=1759344128.095.26.72040|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=035aada9-5567-441d-9435-f621a6c762a5; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://ca.staging.gearset.com ["POD=1759344128.093.25.86632|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=97e9f025-35ee-44d8-ae41-2961448bea42; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://us.staging.gearset.com ["POD=1759344128.255.27.987033|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=bb74619b-5be2-4512-9ed2-ff0e89c57736; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://hipaa.staging.gearset.com ["POD=1759344128.252.27.557971|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=ff1385bc-c9b4-4204-a644-0216ce9e879f; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://eu.staging.gearset.com ["POD=1759344128.311.239.232166|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=c40b0f2c-ca39-49fa-b8ce-e03961215020; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://us.staging.gearset.com ["POD=1759344128.256.27.386616|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=6a4a36a5-e52e-437e-92d6-4d94f38fc0a1; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://staging.gearset.com ["POD=1759344128.314.239.579824|b33bcebfdc9f19265eff6515aa5b891a; Path=/; Secure; HttpOnly AntiForgeryToken2=7786c4f3-3fbc-435b-8aae-b3ffd2067dda; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://hipaa.staging.gearset.com ["POD=1759344128.251.28.744769|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=11201a34-7ccb-4fd8-874b-a40b45867154; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://staging.gearset.com ["POD=1759344128.405.237.156058|b33bcebfdc9f19265eff6515aa5b891a; Path=/; Secure; HttpOnly AntiForgeryToken2=e340d8ac-a30f-4dc6-a8e6-b17efec3209f; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://eu.staging.gearset.com ["POD=1759344128.413.238.435429|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=6ff0605f-70f8-41c9-a81f-64b584ff78dd; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://au.staging.gearset.com ["POD=1759344128.716.26.123524|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=18965976-73e4-4b66-a2d4-c1f1e7b684a0; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[missing-cookie-samesite-strict] [http] [info] https://au.staging.gearset.com ["POD=1759344128.799.27.622153|75d7f28ee7dc06118990029d4deee469; Path=/; Secure; HttpOnly AntiForgeryToken2=6447ebdc-2505-4a73-bf3a-11be47b7206f; domain=.staging.gearset.com; path=/; secure; samesite=lax"]
+[http-missing-security-headers:referrer-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://ca.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://staging.gearset.com
+[intercom] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://hipaa.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://us.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://eu.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://staging.gearset.com
+[intercom] [http] [info] https://staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://au.staging.gearset.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://au.staging.gearset.com
+[xss-deprecated-header] [http] [info] https://ca.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://ca.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://hipaa.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://eu.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://us.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://hipaa.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://us.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://eu.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://au.staging.gearset.com ["1"]
+[xss-deprecated-header] [http] [info] https://au.staging.gearset.com ["1"]
+[caa-fingerprint] [dns] [info] hipaa.staging.gearset.com
+[caa-fingerprint] [dns] [info] us.staging.gearset.com
+[caa-fingerprint] [dns] [info] us.staging.gearset.com
+[caa-fingerprint] [dns] [info] staging.gearset.com
+[caa-fingerprint] [dns] [info] au.staging.gearset.com
+[caa-fingerprint] [dns] [info] au.staging.gearset.com
+[caa-fingerprint] [dns] [info] eu.staging.gearset.com
+[caa-fingerprint] [dns] [info] staging.gearset.com
+[caa-fingerprint] [dns] [info] eu.staging.gearset.com
+[caa-fingerprint] [dns] [info] hipaa.staging.gearset.com
+[caa-fingerprint] [dns] [info] ca.staging.gearset.com
+[caa-fingerprint] [dns] [info] ca.staging.gearset.com
+[ssl-issuer] [ssl] [info] ca.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] ca.staging.gearset.com:443 ["ca.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] ca.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] ca.staging.gearset.com:443 ["ca.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] us.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] us.staging.gearset.com:443 ["us.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] us.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] us.staging.gearset.com:443 ["us.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] hipaa.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] hipaa.staging.gearset.com:443 ["hipaa.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] hipaa.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] hipaa.staging.gearset.com:443 ["hipaa.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] eu.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-issuer] [ssl] [info] staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-issuer] [ssl] [info] staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] staging.gearset.com:443 ["staging.gearset.com"]
+[ssl-dns-names] [ssl] [info] staging.gearset.com:443 ["staging.gearset.com"]
+[ssl-dns-names] [ssl] [info] eu.staging.gearset.com:443 ["eu.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] eu.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] eu.staging.gearset.com:443 ["eu.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] au.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] au.staging.gearset.com:443 ["au.staging.gearset.com"]
+[ssl-issuer] [ssl] [info] au.staging.gearset.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] au.staging.gearset.com:443 ["au.staging.gearset.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] au.staging.gearset.com ["aa8b090ecab5f45b380217b60909a3ac-1024920723.ap-southeast-2.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] hipaa.staging.gearset.com ["af67e82334c9749b289ba8ac64f076db-1033796600.us-west-2.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] ca.staging.gearset.com ["a5903aba20b964b19af750c746677dda-655659627.ca-central-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] au.staging.gearset.com ["aa8b090ecab5f45b380217b60909a3ac-1024920723.ap-southeast-2.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] eu.staging.gearset.com ["a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] staging.gearset.com ["a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] us.staging.gearset.com ["abc078282c5af4403b3a9ec00397cb8a-1175636805.us-west-2.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] eu.staging.gearset.com ["a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] us.staging.gearset.com ["abc078282c5af4403b3a9ec00397cb8a-1175636805.us-west-2.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] staging.gearset.com ["a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] ca.staging.gearset.com ["a5903aba20b964b19af750c746677dda-655659627.ca-central-1.elb.amazonaws.com"]
+[dns-saas-service-detection:amazon-aws] [dns] [info] hipaa.staging.gearset.com ["af67e82334c9749b289ba8ac64f076db-1033796600.us-west-2.elb.amazonaws.com"]

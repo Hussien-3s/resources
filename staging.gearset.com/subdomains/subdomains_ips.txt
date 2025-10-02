@@ -1,0 +1,12 @@
+au.staging.gearset.com - 13.239.180.212
+au.staging.gearset.com - 3.104.229.254
+ca.staging.gearset.com - 15.157.1.53
+ca.staging.gearset.com - 52.60.64.135
+eu.staging.gearset.com - 3.251.36.125
+eu.staging.gearset.com - 54.220.77.66
+hipaa.staging.gearset.com - 34.211.74.195
+hipaa.staging.gearset.com - 35.82.255.217
+staging.gearset.com - 3.251.36.125
+staging.gearset.com - 54.220.77.66
+us.staging.gearset.com - 34.214.144.206
+us.staging.gearset.com - 44.228.36.100

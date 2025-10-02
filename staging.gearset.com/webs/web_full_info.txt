@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-10-01T18:31:25.433811631Z",
+  "port": "443",
+  "url": "https://au.staging.gearset.com",
+  "input": "au.staging.gearset.com",
+  "scheme": "https",
+  "method": "GET",
+  "host": "13.239.180.212",
+  "path": "/",
+  "time": "704.339672ms",
+  "a": [
+    "3.104.229.254",
+    "13.239.180.212"
+  ],
+  "cname": [
+    "aa8b090ecab5f45b380217b60909a3ac-1024920723.ap-southeast-2.elb.amazonaws.com"
+  ],
+  "tech": [
+    "HSTS"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "1.0.0.1:53",
+    "8.8.8.8:53"
+  ]
+}
+{
+  "timestamp": "2025-10-01T18:31:24.815978856Z",
+  "port": "443",
+  "url": "https://ca.staging.gearset.com",
+  "input": "ca.staging.gearset.com",
+  "scheme": "https",
+  "method": "GET",
+  "host": "52.60.64.135",
+  "path": "/",
+  "time": "85.567913ms",
+  "a": [
+    "15.157.1.53",
+    "52.60.64.135"
+  ],
+  "cname": [
+    "a5903aba20b964b19af750c746677dda-655659627.ca-central-1.elb.amazonaws.com"
+  ],
+  "tech": [
+    "HSTS"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "8.8.8.8:53",
+    "8.8.4.4:53"
+  ]
+}
+{
+  "timestamp": "2025-10-01T18:31:25.017018986Z",
+  "port": "443",
+  "url": "https://eu.staging.gearset.com",
+  "input": "eu.staging.gearset.com",
+  "scheme": "https",
+  "method": "GET",
+  "host": "54.220.77.66",
+  "path": "/",
+  "time": "286.632894ms",
+  "a": [
+    "54.220.77.66",
+    "3.251.36.125"
+  ],
+  "cname": [
+    "a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"
+  ],
+  "tech": [
+    "HSTS"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "67.207.67.3:53",
+    "1.1.1.1:53"
+  ]
+}
+{
+  "timestamp": "2025-10-01T18:31:24.997860059Z",
+  "port": "443",
+  "url": "https://hipaa.staging.gearset.com",
+  "input": "hipaa.staging.gearset.com",
+  "scheme": "https",
+  "method": "GET",
+  "host": "34.211.74.195",
+  "path": "/",
+  "time": "265.875119ms",
+  "a": [
+    "34.211.74.195",
+    "35.82.255.217"
+  ],
+  "cname": [
+    "af67e82334c9749b289ba8ac64f076db-1033796600.us-west-2.elb.amazonaws.com"
+  ],
+  "tech": [
+    "HSTS"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "8.8.4.4:53",
+    "67.207.67.3:53"
+  ]
+}
+{
+  "timestamp": "2025-10-01T18:31:25.319635991Z",
+  "port": "443",
+  "url": "https://staging.gearset.com",
+  "input": "staging.gearset.com",
+  "title": "Login | Gearset",
+  "scheme": "https",
+  "content_type": "text/html",
+  "method": "GET",
+  "host": "3.251.36.125",
+  "path": "/",
+  "time": "287.59252ms",
+  "a": [
+    "54.220.77.66",
+    "3.251.36.125"
+  ],
+  "cname": [
+    "a2b0e1818d6d34c129f0b956f1290cea-1148501812.eu-west-1.elb.amazonaws.com"
+  ],
+  "tech": [
+    "Google Analytics",
+    "HSTS",
+    "Osano",
+    "jQuery",
+    "reCAPTCHA"
+  ],
+  "words": 942,
+  "lines": 52,
+  "status_code": 200,
+  "content_length": 6016,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "nonerror",
+    "pHash": 0
+  },
+  "resolvers": [
+    "1.1.1.1:53",
+    "1.0.0.1:53"
+  ]
+}
+{
+  "timestamp": "2025-10-01T18:31:24.994155313Z",
+  "port": "443",
+  "url": "https://us.staging.gearset.com",
+  "input": "us.staging.gearset.com",
+  "scheme": "https",
+  "method": "GET",
+  "host": "34.214.144.206",
+  "path": "/",
+  "time": "261.839733ms",
+  "a": [
+    "34.214.144.206",
+    "44.228.36.100"
+  ],
+  "cname": [
+    "abc078282c5af4403b3a9ec00397cb8a-1175636805.us-west-2.elb.amazonaws.com"
+  ],
+  "tech": [
+    "HSTS"
+  ],
+  "words": 0,
+  "lines": 0,
+  "status_code": 404,
+  "content_length": 0,
+  "failed": false,
+  "knowledgebase": {
+    "PageType": "other",
+    "pHash": 0
+  },
+  "resolvers": [
+    "67.207.67.2:53"
+  ]
+}

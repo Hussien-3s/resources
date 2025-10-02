@@ -1,0 +1,6 @@
+hipaa.staging.gearset.com
+ca.staging.gearset.com
+au.staging.gearset.com
+staging.gearset.com
+eu.staging.gearset.com
+us.staging.gearset.com

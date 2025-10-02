@@ -1,0 +1,52 @@
+[+] Running Azure/M365 Reconnaissance...
+Tenant Region Scope: Unknown
+
+[+] Target Organization:
+
+[+] Federation Information:
+Namespace Type: Managed
+Brand Name: gearset.com
+Cloud Instance: microsoftonline.com
+
+[+] Azure AD Configuration:
+Tenant Region Scope: Unknown
+
+[+] Azure AD Connect Status:
+  Identity Configuration: Unknown
+  Authentication Type: Managed
+
+  [!] Identity Insights:
+  * Cloud-only authentication detected - No on-premises Active Directory present
+  * All authentication handled in Azure AD
+  * Focus on cloud-based attack vectors (OAuth, Device Code, Password Spray)
+
+[+] Microsoft 365 Services:
+SharePoint Detected: No
+
+[+] Microsoft 365 Usage: Not Detected
+
+[+] Azure Services:
+
+Azure App Services:
+  - https://staging.azurewebsites.net (auth_required)
+
+Power Apps Portals:
+  - https://staging.powerappsportals.com
+
+Azure CDN Endpoints:
+  - staging.azureedge.net
+  - staging-cdn.azureedge.net
+
+Azure B2C Configuration:
+  Standard B2C Endpoint: error (Connection failed)
+  Custom Domain Login: error (Connection failed)
+
+[+] Communication Services:
+Microsoft Teams: Not Detected
+Skype for Business: Not Detected
+
+[+] Domains found:
+
+
+[+] Azure AD Applications:
+  Error checking AAD applications: No tenant ID available

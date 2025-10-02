@@ -1,0 +1,47 @@
+Starting Nmap 9.99 ( https://nmap.org ) at 2025-10-01 18:38 UTC
+Nmap scan report for processor.act-p-cc1-test.cloudos.autodesk.com (15.157.1.53)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+443/tcp open  https?   
+
+Nmap scan report for www-elb.bidenergy.com (3.104.229.254)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     
+443/tcp open  https?   
+
+Nmap scan report for geo.prod.api.barrister.aws.dev (13.239.180.212)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+443/tcp open  https?   
+
+Nmap scan report for regional-exp-serv.71b41384.beta.forgeinternaldnsapps.ec2.aws.dev (34.214.144.206)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http?    
+443/tcp open  https?   
+
+Nmap scan report for ec2-52-60-64-135.ca-central-1.compute.amazonaws.com (52.60.64.135)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http?    
+443/tcp open  https?   
+
+Nmap scan report for ec2-35-82-255-217.us-west-2.compute.amazonaws.com (35.82.255.217)
+Host is up.
+
+PORT    STATE SERVICE  VERSION
+443/tcp open  https?   
+
+Nmap scan report for ec2-54-220-77-66.eu-west-1.compute.amazonaws.com (54.220.77.66)
+Host is up.
+
+PORT   STATE SERVICE  VERSION
+80/tcp open  http?    
+
+Nmap done: 10 IP addresses (7 hosts up) scanned in 0.16 seconds

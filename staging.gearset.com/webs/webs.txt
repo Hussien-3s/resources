@@ -1,0 +1,6 @@
+https://au.staging.gearset.com
+https://ca.staging.gearset.com
+https://eu.staging.gearset.com
+https://hipaa.staging.gearset.com
+https://staging.gearset.com
+https://us.staging.gearset.com

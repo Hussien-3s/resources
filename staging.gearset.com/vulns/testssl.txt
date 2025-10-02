@@ -1,0 +1,374 @@
+
+====== Running in file batch mode with file="hosts/ips.txt" ======
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 13.239.180.212
+
+ Start 2025-10-01 23:16:51        -->> 13.239.180.212:443 (13.239.180.212) <<--
+
+ rDNS (13.239.180.212):  ec2-13-239-180-212.ap-southeast-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1A44916C4B19CCF70E2D38D62E8DF0F44F758F7790B7360559F88592EAA69DE1
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:17:50 [  71s] -->> 13.239.180.212:443 (13.239.180.212) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 15.157.1.53
+
+ Start 2025-10-01 23:18:01        -->> 15.157.1.53:443 (15.157.1.53) <<--
+
+ rDNS (15.157.1.53):     ec2-15-157-1-53.ca-central-1.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0650915B7A725EC023FBDD6BF7166FE74C605122B6329CF4E9B87041EE67A3E4
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:18:32 [  42s] -->> 15.157.1.53:443 (15.157.1.53) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 3.104.229.254
+
+ Start 2025-10-01 23:18:44        -->> 3.104.229.254:443 (3.104.229.254) <<--
+
+ rDNS (3.104.229.254):   ec2-3-104-229-254.ap-southeast-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FD6162CC675D4F79D980F822FA72A43CDE03FB1FA5D9565B6B4435ABCF1651F2
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:19:41 [  68s] -->> 3.104.229.254:443 (3.104.229.254) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 3.251.36.125
+
+ Start 2025-10-01 23:19:52        -->> 3.251.36.125:443 (3.251.36.125) <<--
+
+ rDNS (3.251.36.125):    ec2-3-251-36-125.eu-west-1.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BBF1B57B9C3D86B165EAF3DC0A08514FC99794D37ABFA4D19998D9B7D85FA9F2
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:20:33 [  51s] -->> 3.251.36.125:443 (3.251.36.125) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 34.211.74.195
+
+ Start 2025-10-01 23:20:43        -->> 34.211.74.195:443 (34.211.74.195) <<--
+
+ rDNS (34.211.74.195):   ec2-34-211-74-195.us-west-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F1FB3946FDE09DD30CE972DE1EC8490B8008FDD61C8FBB5139AE48B95A31C735
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:21:24 [  51s] -->> 34.211.74.195:443 (34.211.74.195) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 34.214.144.206
+
+ Start 2025-10-01 23:21:37        -->> 34.214.144.206:443 (34.214.144.206) <<--
+
+ rDNS (34.214.144.206):  ec2-34-214-144-206.us-west-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C27D8BCDA404630B1C40BFFA0705E7848762ACFA85381354B006AF16CEFAEECB
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:22:17 [  52s] -->> 34.214.144.206:443 (34.214.144.206) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 35.82.255.217
+
+ Start 2025-10-01 23:22:27        -->> 35.82.255.217:443 (35.82.255.217) <<--
+
+ rDNS (35.82.255.217):   ec2-35-82-255-217.us-west-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BB0DEA3252083C2CFE3886565F9EA329CA867E629FECE3921E54D5E6839A2E79
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:23:04 [  46s] -->> 35.82.255.217:443 (35.82.255.217) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 44.228.36.100
+
+ Start 2025-10-01 23:23:16        -->> 44.228.36.100:443 (44.228.36.100) <<--
+
+ rDNS (44.228.36.100):   ec2-44-228-36-100.us-west-2.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=403BC5E4C7E17D3AAFA7DA47061739F74DC5D07F81CCB61B1B1D34B3FAB8F5FA
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:23:54 [  49s] -->> 44.228.36.100:443 (44.228.36.100) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 52.60.64.135
+
+ Start 2025-10-01 23:24:06        -->> 52.60.64.135:443 (52.60.64.135) <<--
+
+ rDNS (52.60.64.135):    ec2-52-60-64-135.ca-central-1.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7C8CBEE483976877939A1A21BCA4A7F2E5F87414F6F96B3BEF84A26B4956BAED
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:24:38 [  44s] -->> 52.60.64.135:443 (52.60.64.135) <<--
+
+
+============================================================
+/root/Tools/testssl.sh/testssl.sh --quiet --color 0 -U --warnings=batch 54.220.77.66
+
+ Start 2025-10-01 23:24:48        -->> 54.220.77.66:443 (54.220.77.66) <<--
+
+ rDNS (54.220.77.66):    ec2-54-220-77-66.eu-west-1.compute.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK), no session ticket extension
+ Opossum (CVE-2025-49812)                  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "br" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK)
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           make sure you don't use this certificate elsewhere with SSLv2 enabled services, see
+                                           https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0629A9619960569C01EEFBC3EE03E7B54D367FB2A0C3DC7009867613F8C8EFB9
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no common prime detected
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     not vulnerable (OK)
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Done 2025-10-01 23:25:28 [  49s] -->> 54.220.77.66:443 (54.220.77.66) <<--
+
+
+

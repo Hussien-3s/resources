@@ -1,0 +1,83 @@
+# Nmap 7.93 scan initiated Wed Oct  1 18:38:11 2025 as: nmap --top-ports 200 -sV -n -Pn --open --max-retries 2 --script vulners -iL .tmp/ips_nocdn.txt -oA hosts/portscan_active
+Nmap scan report for 13.239.180.212
+Host is up (0.20s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 15.157.1.53
+Host is up (0.015s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 3.104.229.254
+Host is up (0.20s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 3.251.36.125
+Host is up (0.090s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 34.211.74.195
+Host is up (0.081s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 34.214.144.206
+Host is up (0.079s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 35.82.255.217
+Host is up (0.077s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 44.228.36.100
+Host is up (0.077s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 52.60.64.135
+Host is up (0.016s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Nmap scan report for 54.220.77.66
+Host is up (0.090s latency).
+Not shown: 198 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx (reverse proxy)
+443/tcp open  ssl/http nginx (reverse proxy)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct  1 18:39:16 2025 -- 10 IP addresses (10 hosts up) scanned in 64.56 seconds

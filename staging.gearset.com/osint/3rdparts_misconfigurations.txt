@@ -1,0 +1,1006 @@
+[+] 18 Services selected!
+[+] Checking 100 possible target URLs...
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://gearset.slack.com/
+Service: Slack
+Description: Slack messaging service
+
+Reproduction Steps:
+	- Visit the URL
+	- Follow the steps in the references
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/slack/no-admin-approval-for-invitations
+	- https://slack.com/help/articles/115004854783-Require-admin-approval-for-workspace-invitations
+	- https://slack.com/help/articles/115004155306-Security-tips-to-protect-your-workspace
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://gearset.lightning.force.com/aura
+Service: Salesforce Lightning Aura Component Enabled
+Description: Salesforce Lightning Aura Component is enabled and if access controls are not properly enforced, it may introduce several security issues such as data leaks and potential privilege escalations.
+
+Reproduction Steps:
+	- Replicate the POST request
+	- Observe the response manually and further enumerate global and custom Salesforce Objects. View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/salesforce/salesforce-lightning-aura-components-enabled
+	- https://www.enumerated.ie/index/salesforce
+	- https://www.enumerated.ie/index/salesforce-lightning-tinting-the-windows
+	- https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-1-the-essentials-ffae632a00e5
+	- https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-2-fuzz-exploit-eefae11ba5ae
+	- https://infosecwriteups.com/salesforce-bug-hunting-to-critical-bug-b5da44789d3
+	- https://www.biswajeetsamal.com/blog/salesforce-object-key-prefix-list/
+	- https://www.varonis.com/blog/abusing-salesforce-communities
+	- https://web.archive.org/web/20210116171949/https://mcafee.com/blogs/enterprise/cloud-security/17-must-enable-salesforce-security-capabilities-and-other-best-practices/
+	- https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_lightning.htm
+	- https://help.salesforce.com/s/articleView?id=ind.media_asm_Disable_Lightning_Web_Security.htm&type=5
+	- https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-com.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetcom.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-net.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetnet.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-org.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetorg.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-io.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetio.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-fr.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetfr.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-ltd.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetltd.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-app.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetapp.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-prod.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetprod.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-internal.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetinternal.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-dev.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetdev.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-development.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetdevelopment.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-devops.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetdevops.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-logs.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetlogs.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-logging.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetlogging.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-admin.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetadmin.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-log.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetlog.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-stage.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetstage.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset.staging.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-staging.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetstaging.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-stg.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetstg.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-production.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetproduction.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-dev-only.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetdev-only.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-cicd.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetcicd.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-employee-only.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetemployee-only.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-testing.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsettesting.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-secret.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetsecret.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-kibana.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetkibana.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-employees.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetemployees.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-partners.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetpartners.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-sso.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetsso.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-saml.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetsaml.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-tickets.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsettickets.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-issues.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetissues.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearset-oauth2.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://pub-gearsetoauth2.r2.dev/
+Service: Cloudflare R2 with R2.DEV Enabled
+Description: Cloudflare R2 with R2.DEV enabled can allow bad actors to view objects in buckets
+
+Reproduction Steps:
+	- Visit the Cloudflare R2 Bucket API endpoint
+	- Observe the response for any disclosed information (such as private files). View the references for more information.
+
+References:
+	- https://bugology.intigriti.io/misconfig-mapper-docs/services/cloudflare-r2/r2-dev-enabled
+	- https://blog.intigriti.com/hacking-tools/hacking-misconfigured-cloudflare-r2-buckets-a-complete-guide
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+[+] 1 Vulnerable result found!
+URL: https://dev.azure.com/gearset/
+Service: Azure DevOps
+Description: Azure DevOps service
+
+Reproduction Steps:
+	- Visit the URL
+
+References:
+	- https://github.com/synacktiv/nord-stream
+	- https://www.synacktiv.com/publications/cicd-secrets-extraction-tips-and-tricks
+--------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+# Nmap 7.93 scan initiated Wed Oct  1 18:38:11 2025 as: nmap --top-ports 200 -sV -n -Pn --open --max-retries 2 --script vulners -iL .tmp/ips_nocdn.txt -oA hosts/portscan_active
+Host: 13.239.180.212 ()	Status: Up
+Host: 13.239.180.212 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 15.157.1.53 ()	Status: Up
+Host: 15.157.1.53 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 3.104.229.254 ()	Status: Up
+Host: 3.104.229.254 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 3.251.36.125 ()	Status: Up
+Host: 3.251.36.125 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 34.211.74.195 ()	Status: Up
+Host: 34.211.74.195 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 34.214.144.206 ()	Status: Up
+Host: 34.214.144.206 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 35.82.255.217 ()	Status: Up
+Host: 35.82.255.217 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 44.228.36.100 ()	Status: Up
+Host: 44.228.36.100 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 52.60.64.135 ()	Status: Up
+Host: 52.60.64.135 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+Host: 54.220.77.66 ()	Status: Up
+Host: 54.220.77.66 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: filtered (198)
+# Nmap done at Wed Oct  1 18:39:16 2025 -- 10 IP addresses (10 hosts up) scanned in 64.56 seconds
